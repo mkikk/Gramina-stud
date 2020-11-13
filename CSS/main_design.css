@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(253, 200, 209);
+}
+styledimg {
+    background-image: url("/Images/JPG & PNG/VÄRVILINE-Kujutis+kiri1.png")
+    background-repeat: no-repeat;
+    width: 625px;
+    height: 625px;
+}
+h1 {
+    color: rgb(151, 70, 151);
+    margin-left: 20 px;
+    font-size: 80 px;
+}
