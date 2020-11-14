@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.header {
+    background-color: #8e4585;
+
+}
+.main-section {
+    background-color: #e099ff;
+    padding: 15px;
+
+}
+.Cover_photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: 300px;
+    
+}
+#main_section {
+    height:1400px;
+    width:fill;
+    font-size:28px;
+    
+
+}
+.Background_photo {
+    background-image: url("../Images/Pildid/Ikoon_s.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+footer {
+    height:40px;
+    margin-bottom: 1px;
+    background-color: #8e4585;
+    text-align: right;
+}
