@@ -9,18 +9,26 @@
     <title>Gramina Stud</title>
 </head>
 <body>
-
-    <header class = "Cover_photo">
-        
-        <nav>
-            <!--Rippmenüü-->
-        </nav>   
+<div id="container">
+    <button id="nupp" >&#9776;</button>
+    <div id="navbar" style="display: none">
+        <div id="bar">
+            <h2>Menüü</h2>
+            <a id="navlinks" style="">Link</a>
+            <a id="navlinks">Link</a>
+            <a id="navlinks">Link</a>
+            <a id="navlinks">Link</a>
+            <a id="navlinks">Link</a>
+        </div>
+    </div>
+</div>
+<header class = "Cover_photo">
     </header>
     <main>
         <article>
-            <section  class="Background_photo">
-                <div  id="main_article">    
-                    <p>
+            <section  class="background_photo">
+                <div id="main_article">
+                    <p style = "padding:50px;">
                     Gramina stud is a stable complex located in Lemmatsi, next to Tartu
                     It's a family run stud with a purpose to produce and train high-level
                     show-jumping horses.
@@ -31,21 +39,36 @@
     </main>
     <footer>
         <section>
-            <div id="Stable">
-                <p>Kristjani, Külitse, 61702 Tartu County Estonia</p>
-                <p>Mobile: +372 506 6309</p>
-                <p>E-mail: kristiluhaa@gmail.com</p>  
-            </div>
-            <div id="Estore_info">
-                <a  href="https://gramina-equest.com/" target="_blank">
-                    <img src="../Images/Pildid/Gramina_equi.png" alt="Gramina Equistore logo">
-                </a>
+            <div id="stable">
+                <div>
+                    <img style="width: 262px;" src="../Images/Pildid/VÄRVILINE-Kiri.png">
+                </div>
+                <div>
+                    <p>Kristjani, Külitse, 61702 Tartu County Estonia</p>
+                    <p>Mobile: +372 506 6309</p>
+                    <p>E-mail: kristiluhaa@gmail.com</p>
+                </div>
+                <div>
+                    <a href="https://gramina-equest.com/" target="_blank"><img src="../Images/Pildid/Gramina_equi.png" alt="Gramina Equistore logo"></a>
+                </div>
             </div>
         </section>
-        
-            
-        
     </footer>
+
+<script>
+    window.onclick = function(event) {
+        if (event.target == document.getElementById("nupp")) {
+            document.getElementById("navbar").style.display = "block";
+        }
+        else {
+            if (document.getElementById("bar").contains(event.target)){
+            }
+            else {
+                document.getElementById("navbar").style.display = "none";
+            }
+        }
+    }
+</script>
 
 </body> 
 </html>
