@@ -18,7 +18,7 @@ html {
     background-color: rgba(255, 225, 176,1);
 }
 
-#navlinks {
+.navlinks {
     float: left;
     padding-left: 40px;
     margin: 15px;
@@ -27,8 +27,8 @@ html {
     text-decoration: unset;
 }
 
-#navlinks:hover {
-    color: grey;
+.navlinks:hover {
+    color: lightgrey;
     cursor: pointer;
 }
 
@@ -88,13 +88,21 @@ footer {
     height: 300px;
     max-width: 100%;
 }
-header > img {
+
+#logo {
     display: block;
     margin: auto;
     width: auto;
     height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+.home > img:hover {
+    cursor: pointer;
+    opacity: 70%;
+
 }
 
 #main_article{
