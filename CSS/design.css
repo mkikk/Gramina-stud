@@ -1,6 +1,9 @@
 html, body {
-    overflow-x: hidden;
     height: 100%;
+}
+
+html {
+    overflow-y: scroll;
 }
 *{
     margin: 0;
