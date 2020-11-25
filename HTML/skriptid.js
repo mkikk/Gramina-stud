@@ -1,12 +1,17 @@
 window.onclick = function(event) {
+    const navbar = document.getElementById("navbar");
+    const bar = document.getElementById("bar");
     if (event.target === document.getElementById("nupp")) {
-    document.getElementById("navbar").style.display = "block";
-}
+    navbar.style.display = "block";
+    }
     else {
-    if (document.getElementById("bar").contains(event.target)){
+        if (bar.contains(event.target)){
+        }
+        else {
+            navbar.style.display = "none";
+        }
+    }
 }
-    else {
-    document.getElementById("navbar").style.display = "none";
-}
-}
-}
+
+
+
