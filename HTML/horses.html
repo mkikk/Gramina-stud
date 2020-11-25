@@ -1,26 +1,150 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Horses - Gramina Stud</title>
-    </head>
+<html lang="en">
+<head>
+    <script src="skriptid.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/design.css" rel="stylesheet">
+    <link rel="icon" href="../Images/Pildid/Ikoon_s.png" type="image/png" sizes="16x16">
+    <title>GS | Horses</title>
+</head>
+<style>
+    .expand:hover {
+        cursor: pointer;
+    }
+    .expand {
+        user-select: none;
+        font-size: 30px;
+    }
 
-    <body>
-        
-        <!-- 3 haru - SPORT, BREEDING, YOUNGSTERS.
-        Iga liigituse juures pilt ning nimekiri linkidega
-        hobuste juurde, mis avaneb samal lehel.-->
-        <h1>Horses</h1>
-        <hr>
-        <h2>SPORT</h2>
-        <p><a href="quintano.html">Quintano Gramina</a></p>
-        <p><a href="elgringo.html">El Gringo Gramina</a></p>
-            
-        
-        <hr>
-        <h2>BREEDING</h2>
-        
-        <hr>
-        <h2>YOUNGSTERS</h2>
+    .expand:before {
+        content: element("&oplus");
+    }
 
-    </body>
+    .holder {
+        display: none;
+    }
+    .holder > p {
+        padding-left: 50px;
+    }
+
+    .holder > h3 {
+        padding-left: 20px;
+    }
+</style>
+<body>
+<div id="container">
+    <a id="nupp" >&#9776;</a>
+    <div id="navbar" style="display: none">
+        <div id="bar">
+            <h2>Menüü</h2>
+            <a class="navlinks" href="staff.html">Staff</a>
+            <a class="navlinks" href="stables.html">Stables</a>
+            <a class="navlinks" href="horses.html">Horses</a>
+            <a class="navlinks" href="gallery.html">Gallery</a>
+            <a class="navlinks" href="contact.html">Contact</a>
+        </div>
+    </div>
+</div>
+<header class="cover_photo">
+    <a class="home" href="pealeht.html">
+        <img id="logo" src="../Images/Pildid/backtext.png">
+    </a>
+</header>
+<main>
+    <article>
+        <section class="background_photo">
+            <div id="main_article"><h1 style="margin-right: 30px;">Horses</h1><hr style="margin-right: 30px;">
+                <div><div>
+                    <a class="expand">Sport</a>
+                    <div class="holder">
+                        <h3>Quintano van het Kloosterhof/ Quintano Gramina</h3>
+                        <p>-KANNAN x BALOUBET DU ROUET</p>
+                        <p>-Gelding 2016</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/1855295/quintano-van-het-kloosterhof</p>
+
+                        <h3>El Gringo RP/ El Gringo Gramina</h3>
+                        <p>-ELDORADO VAN DE ZESHOEK TN x  PADINUS</p>
+                        <p>-Gelding 2018</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/2181292/el-gringo-rp</p>
+                    </div>
+
+                    <p class="expand">Breeding</p>
+                    <div class="holder">
+                        <h3>Hallelujah</h3>
+                        <p>-Spartacus TN x Padinus</p>
+                        <p>-Mare 2012</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/1567845/hallelujah</p>
+
+                        <h3>Clear Daze</h3>
+                        <p>-Clearway x Carpaccio</p>
+                        <p>-Mare 2007</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/2181291/clear-daze</p>
+
+                        <h3>Cigrante</h3>
+                        <p>-Canturano x Caresino I</p>
+                        <p>-Mare 2007</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/567026/cigrante</p>
+                    </div>
+
+                    <p class="expand">Youngsters</p>
+                    <div class="holder"><h3>High Five Gramina</h3>
+                        <p>-Harvey VDL x Canturano I</p>
+                        <p>-Stallion 2020</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/2168075/high-five-gramina</p>
+
+                        <h3>Babelou Gramina</h3>
+                        <p>-Balou du Rouet x Spartacus Tn</p>
+                        <p>-Mare 2020</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/2168978/babelou-gramina</p>
+
+                        <h3>Quinta Gramina</h3>
+                        <p>-Quintano Gramina x Calvino Z</p>
+                        <p>-Mare 2020</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/2168078/quinta-gramina</p>
+
+                        <h3>Unicorn Nina from Gramina</h3>
+                        <p>-Untouchable x Canturano</p>
+                        <p>-Mare 2019</p>
+                        <p>-https://www.horsetelex.com/horses/pedigree/2078865/unicorn-nina-from-gramina</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</main>
+<footer>
+    <section>
+        <div id="stable">
+            <div>
+                <a class="home" href="pealeht.html"><img style="width: 262px;" src="../Images/Pildid/VÄRVILINE-Kiri.png"></a>
+            </div>
+            <div>
+                <p>Kristjani, Külitse, 61702 Tartu County Estonia</p>
+                <p>Mobile: +372 506 6309</p>
+                <p>E-mail: kristiluhaa@gmail.com</p>
+            </div>
+            <div>
+                <a class="home" href="https://gramina-equest.com/" target="_blank"><img src="../Images/Pildid/Gramina_equi.png" alt="Gramina Equistore logo"></a>
+            </div>
+        </div>
+    </section>
+</footer>
+<script>
+    let i;
+    const expand = document.getElementsByClassName("expand");
+    for (i = 0; i < expand.length; i++) {
+        expand[i].addEventListener("click", function() {
+            const holder = this.nextElementSibling;
+            if (holder.style.display === "block") {
+                holder.style.display = "none";
+            }
+            else {
+                holder.style.display = "block";
+            }
+        });
+    }
+    /*/natuke abi w3.schools.com classide tsükliga :))/*/
+</script>
+</body>
 </html>
