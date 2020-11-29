@@ -110,6 +110,8 @@ footer {
     display: flex;
 }
 
+
+
 #stable > div {
     flex-wrap: wrap;
     width: 33%;
@@ -165,5 +167,12 @@ footer {
 .holder {
     font-size: 20px;
     text-align: left;
-
+    
 }
+
+#map {
+    height: 400px;
+    width: 30%;
+    float:right;
+  }
+  
