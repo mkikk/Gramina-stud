@@ -1,13 +1,15 @@
-window.onclick = function(event) {
-    const navbar = document.getElementById("navbar");
-    const bar = document.getElementById("bar");
+window.onclick = function(event) { // Registreerib nupuvajutuse "sündmuse" ekraanil
+    const navbar = document.getElementById("navbar"); // Muutuja
+    const bar = document.getElementById("bar"); // Muutuja
     if (event.target === document.getElementById("nupp")) {
-    navbar.style.display = "block";
+    navbar.style.display = "block"; //kui vajutatud elemendi id on "nupp",
+        // siis navbari omadus "display" läheb oma lähteväärtuselt (none) "block"-iks,
+        // mistõttu ta kuvatakse
     }
-    else {
+    else {  //ja kui ei vajutatud elemendile "nupp", siis kontrollime, kas vajutati äkki menüüle?
         if (bar.contains(event.target)){
         }
-        else {
+        else { //juhul, kui ei vajutatud menüüle, siis navbari omadus läheb uuesti lähteväärtusele
             navbar.style.display = "none";
         }
     }

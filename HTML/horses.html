@@ -36,6 +36,7 @@
     .holder > div > img {
         margin-right: 20px;
     }
+    /*/css ainult sellele lehele
 </style>
 <body>
 <div id="container">
@@ -52,7 +53,7 @@
 </div>
 <header class="cover_photo">
     <a class="home" href="pealeht.html">
-        <img id="logo" src="../Images/Pildid/backtext.png">
+        <img id="logo" src="../Images/Pildid/backtext.png" alt="Mainlogo">
     </a>
 </header>
 <main>
@@ -149,7 +150,7 @@
     <section>
         <div id="stable">
             <div>
-                <a class="home" href="pealeht.html"><img style="width: 262px;" src="../Images/Pildid/VÄRVILINE-Kiri.png"></a>
+                <a class="home" href="pealeht.html"><img style="width: 262px;" src="../Images/Pildid/VÄRVILINE-Kiri.png" alt="Logo"></a>
             </div>
             <div>
                 <p>Kristjani, Külitse, 61702 Tartu County Estonia</p>
@@ -163,20 +164,21 @@
     </section>
 </footer>
 <script>
-    let i;
-    const expand = document.getElementsByClassName("expand");
-    for (i = 0; i < expand.length; i++) {
+    let i; 
+    const expand = document.getElementsByClassName("expand"); // muutujad
+    for (i = 0; i < expand.length; i++) { // tsükkel, mis käib läbi kõik classid, mis on "expand"
         expand[i].addEventListener("click", function() {
             const holder = this.nextElementSibling;
-            if (holder.style.display === "flex") {
+            if (holder.style.display === "flex") { // teeb expandile järgneva elemendi display omaduse "none"'iks ehk peidab ära kui see on flex
                 holder.style.display = "none";
             }
-            else {
+            else { // ja kui on midagi muud, kui flex siis teeb selle "flex"'iks
                 holder.style.display = "flex";
             }
         });
     }
-    /*/natuke abi w3.schools.com classide tsükliga :))/*/
+    //natuke abi w3.schools.com classide tsükliga :))
+    //ei saa seda skriptide faili panna, teeb nupu katki fsr :(
 </script>
 </body>
 </html>
