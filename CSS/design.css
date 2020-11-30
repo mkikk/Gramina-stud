@@ -30,6 +30,7 @@ html, body {
     font-size: 33px;
     color: grey;
     outline: none;
+    z-index: 4;
     padding: 0;
     margin: 0 7.181px;
 }
@@ -76,13 +77,11 @@ footer {
 }
 
 #logo {
-    margin: auto;
     display: flex;
     width: auto;
     height: 200px;
     transition: heigth 2s;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
 #logo:hover {
     height: 202px;
@@ -92,13 +91,11 @@ footer {
     cursor: pointer;
     opacity: 70%;
 }#logo {
-     margin: auto;
      display: flex;
      width: auto;
      height: 200px;
      transition: heigth 2s;
-     margin-top: 50px;
-     margin-bottom: 50px;
+     margin: 50px auto;
  }
 #logo:hover {
     height: 202px;
@@ -176,13 +173,13 @@ footer {
     height: 400px;
     width: 30%;
     float:right;
--}
+}
+
 #c_img {
     float:left;
     padding-left: 40px;
     height:400px;
     width:auto;
-    width: 25%;
 
 }
 

@@ -12,6 +12,17 @@
     <link rel="icon" href="../Images/Pildid/Ikoon_s.png" type="image/png" sizes="16x16">
     <title>GS | Contact</title>
 </head>
+<style>
+    section.background_photo {
+        display: flex;
+    }
+    
+    section.background_photo > div {
+        flex-wrap: wrap;
+        text-align: center;
+        position: relative;
+    }
+</style>
 <body>
 <div id="container">
     <a id="nupp" >&#9776;</a>
@@ -31,10 +42,9 @@
 </header>
 <main>
     <div>
-        <img id = "c_img" src="../Images/Pildid/back.jpg">
         <section class="background_photo">
-            <div id ="map"></div>
-            <div id="contacts">
+            <div STYLE="width: 30%"><img id = "c_img" src="../Images/Pildid/back.jpg"></div>
+            <div id="contacts" style="width: 40%">
                 Location: Kristjani, Külitse, Tartu County, Estonia
                 <br>
                 <br>
@@ -43,6 +53,7 @@
                 <br>
                 E-mail: kristiluhaa@gmail.com
             </div>
+            <div id ="map" style="width: 30%"></div>
             
         </section>
         
