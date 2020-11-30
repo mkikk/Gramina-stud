@@ -15,7 +15,7 @@ window.onclick = function(event) { // Registreerib nupuvajutuse "sündmuse" ekra
     }
 }
 
-//google maps
+//google maps, abi sain https://developers.google.com/maps/documentation/javascript/adding-a-google-map
 function initMap() {
     // Vali koordinadid
     const gstud = { lat: 58.326036, lng: 26.647291 };
