@@ -141,11 +141,13 @@ footer {
 #main_article{
     font-size: 28px;
     display: flex;
+    line-height: 2;
 }
 
 #main_article > div {
     flex-wrap: wrap;
     width: 50%;
+    
 }
 
 #Estore_info{
@@ -174,5 +176,19 @@ footer {
     height: 400px;
     width: 30%;
     float:right;
-  }
-  
+-}
+#c_img {
+    float:left;
+    padding-left: 40px;
+    height:400px;
+    width:auto;
+    width: 25%;
+
+}
+
+#contacts {
+    padding-top: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: black;
+}
