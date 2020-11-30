@@ -17,18 +17,18 @@ window.onclick = function(event) { // Registreerib nupuvajutuse "sündmuse" ekra
 
 //google maps
 function initMap() {
-    // Muuda koordinaadid õigeks
+    // Vali koordinadid
     const gstud = { lat: 58.326036, lng: 26.647291 };
-     
+     //loo kaart ja sea suurendus
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 10,
       center: gstud,
     });
-    
+    //määra asukoht
     const marker = new google.maps.Marker({
       position: gstud,
       map: map,
     });
   }
-  //facebook
+ 
  
